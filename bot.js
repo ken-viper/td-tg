@@ -35,7 +35,7 @@
 
 
 const TelegramBot = require("node-telegram-bot-api");
-require("dotenv").config();
+require("dotenv").config(); 
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const FB_URL = process.env.FRONTEND_LINK;
